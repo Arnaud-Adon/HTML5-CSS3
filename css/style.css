@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#banniere{
+    height: 200px;
+    background-image: url('../img/journal.jpg');
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+*{
+    font-family: "Segoe UI", arial;
+}
+
+section{
+    display: flex;
+    margin-top: 150px;
+}
+
+article{
+    padding: 20px;
+    width: 70%;
+}
+
+article img{
+    padding: auto;
+    width: 50%;
+    height: auto;
+}
+
+article p{
+    font-size: 20px; 
+}
+
+#pub{
+    width: 250px;
+    border: 1px solid silver;
+    padding: 5px;
+}
+
+#pub img{
+    width: 250px;
+    height: auto;
+}
+
+aside{
+    width: 30%;
+    padding: 30px;
+    
+    border-left: 2px solid silver;
+}
+
+/****************** Formulaire *******************/
+nav{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    
+    box-shadow: 0px 5px 20px black;
+}
+
+#sign{
+    height: 70px;
+    width: 100%;
+    
+    background-color: silver;
+}
+
+#sign label{
+    margin-right: 10px;
+    color:#fff;
+}
+
+#sign table{
+    float: right;
+}
+
+
+input{
+    margin-right: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+::-webkit-input-placeholder { text-align:center; }
+::-moz-placeholder { text-align:center; } /* firefox 19+ */
+:-ms-input-placeholder { text-align:center; } /* ie */
+input:-moz-placeholder { text-align:center; }
+
+.submit{
+    width: 200px;
+    
+    text-transform: uppercase;
+    font-family: "Segoe UI", arial;
+    color:#fff;
+    
+    border: 1px solid #fff;
+    background-color: silver;
+    transition-duration: 0.2s;
+}
+
+.submit:hover{
+    background-color: #fff;
+    color: silver;
+}
+
+#liste-article ul{
+    list-style-type: none;
+}
+
+.ariane{
+    font-size: 15px;
+    color: grey;
+}
+
+.warning{
+    padding: 5px;
+    height: 50px;
+    /*position: fixed;*/
+    z-index: 5;
+    
+    font-size: 25px;
+    color:#fff;
+   
+    background-color: darkred;
+}
+
+footer{
+    padding: 40px 0 0 10px;
+    height: 250px;
+    
+    color:#fff;
+    
+    background-color: darkslategray;
+}
+#footer-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+#copyright{
+    display: flex;
+    justify-content: space-around;
+}
+
+#newsletter{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    height: 60px;
+    position: fixed;
+    width:15%;
+    
+    color: silver;
+    
+    background-color: #5e9a95;
+    
+    animation-duration: 2s;
+    animation-name: slide;
+    
+}
+
+@keyframes slide{
+    from {
+        
+    }
+    to{
+        
+    }
+}
+
+/************************* Formulaire d'inscription '****************************/
+
+
+/*********** Animation ************/
+/*p {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    
+    to {
+        margin-left: 0%;
+      
+    }
+}*/
+
+
+
